@@ -28,19 +28,26 @@ export const topics = [
   slug: "COT-and-TOT",
   title: "Chain Of Thought (COT) and Tree of Thought (TOT) Prompting",
   description: "Exploring advanced methods in prompt engineering",
-  content1: [
-    "Chain of Thought (COT) prompting:",
+  content1: `
+    "Chain of Thought (COT) prompting:"
+
     "Chain of Thought (CoT) prompting is a technique used in natural, language processing to enhance the reasoning capabilities of language models. By encouraging the model to generate intermediate reasoning steps, CoT prompting helps break down complex problems into manageable parts, leading to more accurate and coherent responses. This method is particularly useful for tasks that require multi-step reasoning, such as mathematical problem-solving or logical deduction. By providing a structured approach to reasoning, CoT prompting improves the model's ability to understand and generate human-like explanations.",
   
-"Chain of Thought (CoT) Example:","\n",
-"This follows a single, linear path of reasoning.","\n",
-"Input: A user asks .What is 5 + 8?","\n",
-"Thought 1: The input is a simple arithmetic problem: addition.",
-"Thought 2: I need to add the number 5 and the number 8 together.",
+"Chain of Thought (CoT) Example:",
+
+"This follows a single, linear path of reasoning."
+
+"Input: A user asks .What is 5 + 8?",
+
+"Thought 1: The input is a simple arithmetic problem: addition."
+
+"Thought 2: I need to add the number 5 and the number 8 together."
+
 "Thought 3: Counting 8 steps up from 5: 6, 7, 8, 9, 10, 11, 12, 13.",
-"Thought 4: Alternatively, using known arithmetic facts, 5 + 8 equals 13.","\n",
-"Output: 5 + 8 = 13."
-],
+
+"Thought 4: Alternatively, using known arithmetic facts, 5 + 8 equals 13.",
+
+"Output: 5 + 8 = 13."`,
   content2: [" Tree of Thought (TOT) prompting Bold",
     "Tree of Thought (ToT) prompting is an advanced technique in natural language processing that extends the concept of Chain of Thought (CoT) prompting. While CoT focuses on linear reasoning paths, ToT allows for branching thought processes, enabling the model to explore multiple lines of reasoning simultaneously. This approach is particularly beneficial for complex problem-solving tasks where multiple solutions or perspectives may exist. By structuring prompts to encourage divergent thinking, ToT prompting enhances the model's ability to generate more comprehensive and nuanced responses."
   ,"Tree of Thoughts (ToT) Example",
